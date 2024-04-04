@@ -1,6 +1,7 @@
-document.getElementById("bmiForm").addEventListener("submit", function(event) {
+    document.getElementById("bmiForm").addEventListener("submit", function(event) {
   event.preventDefault();
   
+  //Mengambil data input pengguna
   var gender = document.querySelector('input[name="gender"]:checked');
   var berat = parseFloat(document.getElementById("berat").value);
   var tahun = parseInt(document.getElementById("tahun").value);
