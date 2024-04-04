@@ -41,9 +41,6 @@ button {
     cursor: pointer;
 }
 
-button-reset{
-    color: white;
-}
 button:hover {
     background-color: #45a049;
 }
@@ -56,4 +53,15 @@ button:hover {
     margin-right: 20px; /* Menambahkan margin agar terdapat jarak antara tombol radio dan teks */
     display: right; /* Mengatur elemen label agar berada dalam satu baris */
 }
+
+.tombol2{
+    color:white
+}
+
+@media screen and(max-width: 480px){
+    .main-container{
+        flex-direction: column;
+    } 
+}
+
 
