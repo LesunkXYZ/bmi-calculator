@@ -23,6 +23,12 @@ header>h1{
     padding: 24px;
 }
 
+.container-info {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 8px;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -35,14 +41,16 @@ input[type="number"] {
 }
 button {
     padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #5CC0DE;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 8px;
+    height: 32px;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #ff3300;
 }
 
 /* Style for custom radio button label */
@@ -54,8 +62,12 @@ button:hover {
     display: right; /* Mengatur elemen label agar berada dalam satu baris */
 }
 
-.tombol2{
-    color:white
+.reset-button{
+  border: none;
+  height: 32px;
+  padding: 5px 10px;
+  background-color: lightgrey;
+  border-radius: 8px;
 }
 
 @media screen and(max-width: 480px){

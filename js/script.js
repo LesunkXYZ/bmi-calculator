@@ -59,7 +59,7 @@
           informasi = "Hasil BMI diantara 25 dan 29,9.\n\n Sebaiknya perhatikan pola makan dan berolahraga teratur untuk mencapai berat badan ideal. Utamakan hidup sehat dan perhatikan konsumsi harian. Beberapa penyakit yang berasal dari kegemukan diantaranya: Diabetes, Hipertensi, Sakit Jantung, Osteoarthritis, dll.";
           break;
       case "Obesitas":
-          informasi = "Hasil BMI lebih dari 30.\n\n Anda tergolong obesitas. Segera konsultasikan dengan dokter untuk mendapatkan saran kesehatan yang tepat. Beberapa penyakit yang berasal dari kegemukan diantaranya: Diabetes, Hipertensi, Sakit Jantung, Osteoarthritis, dll";
+          informasi = "Hasil BMI lebih dari 30.\n\n Anda tergolong obesitas. Segera konsultasikan dengan dokter untuk mendapatkan saran kesehatan yang tepat. Beberapa penyakit yang berasal dari kegemukan diantaranya: Diabetes, Hipertensi, Sakit Jantung, Osteoarthritis, dll.";
           break;
   }
   
