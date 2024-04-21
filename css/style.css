@@ -2,17 +2,22 @@ header>h1{
     text-align: center;
 }
 
-.main-container{
-    display: flex;
-}
+.logo-container {
+    background-color: black; /* Latar belakang hitam untuk logo */
+    padding: 15px;
+    }
 
-.container-item{
-    border: 1px solid;
-    width: 100%;
-    padding: 24px;
-}
+    .container-item{
+        border: 1px solid;
+        width: 100%;
+        padding: 24px;
+    }
 
-.container-item>h2{
+    .container-main{
+        display: flex;
+    }
+
+.container-main>h2{
     text-align: center;
 }
 
@@ -27,17 +32,29 @@ header>h1{
     background-color: aliceblue;
     text-align: center;
     padding: 8px;
+    margin-bottom: 10px;
+}
+
+.container-form{
+    justify-content: center;
+    justify-items: center;
 }
 
 body {
     font-family: Arial, sans-serif;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 }
 label {
     display: block;
     margin-bottom: 5px;
+    margin-left: 10px;
 }
 input[type="number"] {
     width: 100px;
+    margin-left: 10px;
 }
 button {
     padding: 5px 10px;
@@ -47,6 +64,7 @@ button {
     cursor: pointer;
     border-radius: 8px;
     height: 32px;
+    margin-left: 10px;
 }
 
 button:hover {
@@ -70,7 +88,7 @@ button:hover {
   border-radius: 8px;
 }
 
-@media screen and(max-width: 480px){
+@media (max-width: 560px){
     .main-container{
         flex-direction: column;
     } 

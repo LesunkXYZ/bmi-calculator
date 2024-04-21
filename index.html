@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator BMI</title>
     <link rel="stylesheet" href="css/style.css">
+
+<header>
+        <h1 style="text-align: center;">Simple Calculator BMI</h1>
+    </header>
+
 </head>
 <body>
-    <header>
-        <h1>Calculator BMI - Tugas RevoU</h1>
-    </header>
+    
     <main>
-        <div class="main-container">
+        <div class="container-main">
             <div class="container-item">
-                <h2>Form BMI</h2>
+                <h2 style="text-align: center;">Form BMI</h2>
                 <!--Input Pengguna ada disini-->
                 <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di kalkulator BMI.</p>
                 <section class="container-form"></section>
-                <form id="bmiForm" style="background-color: aliceblue;">
-                    <div>
+                <form id="bmiForm" style="background-color: aliceblue; border-radius: 8px;">
+                    <div >
+                      <br>
                       <label><b>Jenis Kelamin</b></label>
                       <label for="pria" class="gender-label"><input type="radio" id="pria" name="gender" value="pria">Pria</label>
                       <label for="wanita" class="gender-label"><input type="radio" id="wanita" name="gender" value="wanita">Wanita</label>
@@ -40,10 +44,11 @@
                     </div>
                     <br />
                     <button type="submit">Hitung BMI</button> <button type="reset" class="reset-button">Reset</button>
+                    <br>
                   </form>
 
                   <div>
-                    <h4>Keunggulan Fitur</h4>
+                    <h2 style="text-align: center;">Keunggulan Fitur</h2>
                     <ol>
                         <li>Menghitung berat badan</li>
                         <li>Menentukan kategori berat badan ideal atau tidak</li>
@@ -58,13 +63,12 @@
 
             <div class="container-item">
                 <!--Bagian Result atau Hasil BMI Muncul disini-->
-                <h2>Result</h2>
+                <h2 style="text-align: center;">Result</h2>
                 <section class="container-result">
                     <p id="bmiCategory"></p>
                     <h1 id="bmiValue">0</h1>
                     <p id="keterangan"></p>
 
-                    <button type="button">Download Hasil BMI</button>
                 </section>
 
                 <section>
@@ -73,10 +77,6 @@
 
                 <!--Tombol dan catatan mengenai BMI-->
                 <section>
-                  <div>
-                   <button>Konsultasi Ahli Gizi Via Aplikasi</button> <button>Registrasi Online Ahli Gizi</button> 
-                  </div>
-                  <br />
                   <div>
                     BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda.
                   </div>
@@ -89,17 +89,14 @@
                   <h4> Penyakit yang berasal dari kegemukan</h4>
                   <p> Diabetes, Hipertensi, Sakit Jantung, Osteoarthritis, dll.</p>
                   </div>
-                
-                  <div>
-                    <button>Konsultasi Dokter Via Aplikasi</button> <button>Registrasi Online Sekarang</button>   
-                  </div>
+
                 </section>
 
             </div>
         </div>
     </main>
     <footer>
-      <p><center>Dibuat oleh Muhammad Fathur Rizqi untuk tugas RevoU 25 Mar - 5 April 2024 (SE-25-Mar-24)</center></p>
+      <p ><center>Dibuat ulang oleh LesunkXYZ pada 25 Mar - 5 April 2024 untuk RevoU</center></p>
     </footer>
     <script src="js/script.js"></script>
 </body>
